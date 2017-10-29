@@ -19,4 +19,15 @@ public BusBoy()
 		  }
 	  }
   }
+  public void clean()
+  {
+	  for(int i=0;i<5;i++)
+	  {
+		  if(boys[i]==0)
+		  {
+			  boys[i]=1;
+			  System.out.println("Bus Boy" + i+1 + "cleans the table\n");
+		  }
+	  }
+  }
 }

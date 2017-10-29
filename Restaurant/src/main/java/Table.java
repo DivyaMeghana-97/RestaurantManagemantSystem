@@ -15,7 +15,7 @@ public class Table {
 			if(tables[i]==0)
 			{
 				tables[i]=1;
-				System.out.println("table"+ i+1 + "ïs alloted");
+				System.out.println("table"+ i+1 + "ïs alloted by host\n");
 				break;
 			}
 		}
